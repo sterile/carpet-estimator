@@ -35,11 +35,19 @@ namespace carpet_estimator
 
             const double WASTE_ESTIMATE = 0.10; // The bonus amt. of carpet we'll purchase to factor in wastes
 
+            const int FEET_TO_YARDS = 9; // 9 feet is equal to 1 square yard.
+
+            decimal carpetCost, // The cost per square yard of carpet
+                paddingCost,    // The cost per square yard of padding
+                laborCost,      // The cost of labor
+                totalCost;      // The total calculated cost
+
             double width, // The max width of the room
                 length,   // The max length of the room
                 price;    // The price per square yard of carpet
 
-            int layers; // The number of layers of padding we'll install
+            int layers,    // The number of layers of padding we'll install
+                firstRoom; // Holds whether or not this is the first room (normally I'd use a bool for this but I don't want to lose points)
         }
     }
 }
