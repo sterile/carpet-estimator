@@ -42,9 +42,10 @@ namespace carpet_estimator
                 laborCost,      // The cost of labor
                 totalCost;      // The total calculated cost
 
-            double width, // The max width of the room
-                length,   // The max length of the room
-                price;    // The price per square yard of carpet
+            double area, // The calculated area of the room
+                width,   // The max width of the room
+                length,  // The max length of the room
+                price;   // The price per square yard of carpet
 
             int layers,    // The number of layers of padding we'll install
                 firstRoom; // Holds whether or not this is the first room (normally I'd use a bool for this but I don't want to lose points)
