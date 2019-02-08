@@ -283,6 +283,7 @@
             this.calculateBtn.TabIndex = 27;
             this.calculateBtn.Text = "Calculate";
             this.calculateBtn.UseVisualStyleBackColor = true;
+            this.calculateBtn.Click += new System.EventHandler(this.calculateBtn_Click);
             // 
             // CarpetEstimator
             // 
