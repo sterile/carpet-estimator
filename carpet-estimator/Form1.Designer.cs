@@ -50,7 +50,7 @@
             this.lengthTextBox = new System.Windows.Forms.TextBox();
             this.cptPriceTextBox = new System.Windows.Forms.TextBox();
             this.costGroup = new System.Windows.Forms.GroupBox();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.paddingSelector = new System.Windows.Forms.ComboBox();
             this.calculateBtn = new System.Windows.Forms.Button();
             this.costGroup.SuspendLayout();
             this.SuspendLayout();
@@ -263,17 +263,17 @@
             this.costGroup.TabStop = false;
             this.costGroup.Text = "Cost Analysis";
             // 
-            // comboBox1
+            // paddingSelector
             // 
-            this.comboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
+            this.paddingSelector.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.paddingSelector.FormattingEnabled = true;
+            this.paddingSelector.Items.AddRange(new object[] {
             "1",
             "2"});
-            this.comboBox1.Location = new System.Drawing.Point(128, 150);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(101, 21);
-            this.comboBox1.TabIndex = 26;
+            this.paddingSelector.Location = new System.Drawing.Point(128, 150);
+            this.paddingSelector.Name = "paddingSelector";
+            this.paddingSelector.Size = new System.Drawing.Size(101, 21);
+            this.paddingSelector.TabIndex = 26;
             // 
             // calculateBtn
             // 
@@ -294,7 +294,7 @@
             this.Controls.Add(this.calculateBtn);
             this.Controls.Add(this.firstRoomNo);
             this.Controls.Add(this.firstRoomYes);
-            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.paddingSelector);
             this.Controls.Add(this.costGroup);
             this.Controls.Add(this.cptPriceTextBox);
             this.Controls.Add(this.lengthTextBox);
@@ -338,7 +338,7 @@
         private System.Windows.Forms.TextBox lengthTextBox;
         private System.Windows.Forms.TextBox cptPriceTextBox;
         private System.Windows.Forms.GroupBox costGroup;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox paddingSelector;
         private System.Windows.Forms.Button calculateBtn;
     }
 }
