@@ -77,8 +77,6 @@ namespace carpet_estimator
             paddingCalcLbl.Text = paddingCharge.ToString("C");
             laborCalcLbl.Text = laborCharge.ToString("C");
             totalCalcLbl.Text = totalCharge.ToString("C");
-
-            System.Windows.Forms.MessageBox.Show("Calculations completed.", "Look at me fool", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
     }
 }
