@@ -46,9 +46,9 @@
             this.paddingCalcLbl = new System.Windows.Forms.Label();
             this.carpetCalcLbl = new System.Windows.Forms.Label();
             this.yardsCalcLbl = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.widthTextBox = new System.Windows.Forms.TextBox();
+            this.lengthTextBox = new System.Windows.Forms.TextBox();
+            this.cptPriceTextBox = new System.Windows.Forms.TextBox();
             this.costGroup = new System.Windows.Forms.GroupBox();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.calculateBtn = new System.Windows.Forms.Button();
@@ -223,26 +223,26 @@
             this.yardsCalcLbl.TabIndex = 15;
             this.yardsCalcLbl.Text = "0";
             // 
-            // textBox1
+            // widthTextBox
             // 
-            this.textBox1.Location = new System.Drawing.Point(127, 61);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 20);
-            this.textBox1.TabIndex = 21;
+            this.widthTextBox.Location = new System.Drawing.Point(127, 61);
+            this.widthTextBox.Name = "widthTextBox";
+            this.widthTextBox.Size = new System.Drawing.Size(100, 20);
+            this.widthTextBox.TabIndex = 21;
             // 
-            // textBox2
+            // lengthTextBox
             // 
-            this.textBox2.Location = new System.Drawing.Point(127, 89);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 20);
-            this.textBox2.TabIndex = 22;
+            this.lengthTextBox.Location = new System.Drawing.Point(127, 89);
+            this.lengthTextBox.Name = "lengthTextBox";
+            this.lengthTextBox.Size = new System.Drawing.Size(100, 20);
+            this.lengthTextBox.TabIndex = 22;
             // 
-            // textBox4
+            // cptPriceTextBox
             // 
-            this.textBox4.Location = new System.Drawing.Point(128, 117);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(100, 20);
-            this.textBox4.TabIndex = 24;
+            this.cptPriceTextBox.Location = new System.Drawing.Point(128, 117);
+            this.cptPriceTextBox.Name = "cptPriceTextBox";
+            this.cptPriceTextBox.Size = new System.Drawing.Size(100, 20);
+            this.cptPriceTextBox.TabIndex = 24;
             // 
             // costGroup
             // 
@@ -296,9 +296,9 @@
             this.Controls.Add(this.firstRoomYes);
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.costGroup);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.cptPriceTextBox);
+            this.Controls.Add(this.lengthTextBox);
+            this.Controls.Add(this.widthTextBox);
             this.Controls.Add(this.carpetEstLbl);
             this.Controls.Add(this.firstRoomLbl);
             this.Controls.Add(this.paddingLayersLbl);
@@ -334,9 +334,9 @@
         private System.Windows.Forms.Label paddingCalcLbl;
         private System.Windows.Forms.Label carpetCalcLbl;
         private System.Windows.Forms.Label yardsCalcLbl;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox widthTextBox;
+        private System.Windows.Forms.TextBox lengthTextBox;
+        private System.Windows.Forms.TextBox cptPriceTextBox;
         private System.Windows.Forms.GroupBox costGroup;
         private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.Button calculateBtn;
